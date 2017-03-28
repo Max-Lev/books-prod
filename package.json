@@ -1,18 +1,18 @@
 {
-  "name": "books-store",
-  "version": "0.0.0",
-  "license": "MIT",
-  "scripts": {
-    "api-server": "node server/server.js",
-    "display":"npm run api-server & npm run lite-server",
-    "lite-server": "lite-server"
-  },
-  "private": true,
-  "dependencies": {
-    "express": "^4.15.2"
-  },
-  "devDependencies": {
-    "json-server": "^0.9.6",
-    "lite-server": "^2.3.0"
-  }
+    "name": "books-store",
+    "version": "0.0.0",
+    "license": "MIT",
+    "scripts": {
+        "api-server": "node server/server.js",
+        "display": "npm run lite-server",
+        "lite-server": "lite-server"
+    },
+    "private": true,
+    "dependencies": {
+        "express": "^4.15.2"
+    },
+    "devDependencies": {
+        "json-server": "^0.9.6",
+        "lite-server": "^2.3.0"
+    }
 }
