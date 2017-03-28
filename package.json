@@ -4,7 +4,7 @@
     "license": "MIT",
     "scripts": {
         "api-server": "node server/server.js",
-        "display": "npm run lite-server",
+        "display": "npm run api-server & npm run lite-server",
         "lite-server": "lite-server"
     },
     "private": true,
